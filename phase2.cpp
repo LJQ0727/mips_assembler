@@ -7,7 +7,7 @@
  */
 
 #include "phase2.h"
-#include "Phase1.h"
+#include "phase1.h"
 #include <fstream>
 #include <cassert>
 #include <vector>

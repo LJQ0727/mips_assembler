@@ -1,4 +1,3 @@
-
 tester: tester.o phase1.o phase2.o registerTable.o labelTable.o
 	g++ tester.o phase1.o phase2.o registerTable.o labelTable.o -o tester
 tester.o: tester.cpp
