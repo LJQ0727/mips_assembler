@@ -447,14 +447,12 @@ std::string Phase2::getMachineCode32(std::vector<std::string> tokens, LabelTable
 }
 
 
-
 std::string Phase2::getRTypeCode(uint16_t opcd, uint16_t rs, uint16_t rt, uint16_t rd, int16_t sa, uint16_t funct){
     std::string returnStr = toBinary(opcd, 6) + toBinary(rs, 5)
         + toBinary(rt, 5) + toBinary(rd, 5) + toBinary(sa, 5)
         + toBinary(funct, 6);
     return returnStr;
 }
-
 
 
 std::string Phase2::getITypeCode(uint16_t opcd, uint16_t rs, uint16_t rt, int32_t immediate){

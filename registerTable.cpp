@@ -43,7 +43,7 @@ RegisterTable::RegisterTable(){
     add("$k1");
     add("$gp");
     add("$sp");
-    add("$s8");         // $s8 or $fp, $fp is converted to $s8 in the finding step
+    add("$s8");         // $s8 or $fp, $fp is converted to $s8 in the "get" method
     add("$ra");
 }
 
